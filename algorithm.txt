@@ -1,0 +1,4 @@
+It takes the fourier transform of the time series input data and translates them into frequency domain. The input data is already filtered in hardware level to remove power line interference and bandpassed between 7-30Hz.
+And then power of the band is found using passvel's identity for alpha (7-12 Hz) and beta (13-30 Hz), which ultimately helps in controlling the height of the paddle. 
+
+ball direction is configured using co-ordinate geometry!
